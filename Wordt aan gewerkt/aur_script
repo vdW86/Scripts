@@ -1,0 +1,12 @@
+#!/bin/bash
+
+bin="$(basename $0)"
+pkg_root="$HOME/pkg"
+url="https://aur.archlinux.org/"
+verbose=0
+fake=0
+##############################################
+cd "$pkg_root/"
+old="$OLDPWD"
+
+git clone "$url/$pkg_name
