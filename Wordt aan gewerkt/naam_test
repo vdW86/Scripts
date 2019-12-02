@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Gebruikersnaam invullen :" 
+read varname
+echo -e "Gebruikersnaam is : $varname\nHostnaam is : $varname@arch" > testdoc 
